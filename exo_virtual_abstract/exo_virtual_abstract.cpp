@@ -27,7 +27,8 @@ int main()
 
 	for (int i = 0; i<garage.size(); i++) 
 	{
-		cout << *garage[i] <<endl;
+		/*cout << *garage[i] <<endl;*/
+		garage[i]->show();
 	}
 
 	return 0;

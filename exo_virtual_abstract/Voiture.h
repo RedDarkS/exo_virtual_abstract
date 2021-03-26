@@ -27,6 +27,7 @@ public:
 
     //METHODES
     void avancer(Vehicule& v);
+    void show();
     friend ostream& operator<<(ostream& os, Voiture const& v);
 };
 

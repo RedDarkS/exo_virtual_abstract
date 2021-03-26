@@ -58,6 +58,13 @@ void avancer(Vehicule& v)
 {
 	cout << v.getName() << " avance vers un futur incertain." << endl;
 }
+void Vehicule::show() 
+{
+	cout << "----" << getName() << "----" << endl;
+	cout << "Vitesse : " << getSpeed() << endl;
+	cout << "Nombre de roue : " << getNbroue() << endl;
+	cout << "Couleur : " << getColor() << endl << endl;
+}
 ostream& operator<<(ostream& os, Vehicule const& v)
 {
 	os << "----" << v.getName() << "----" << endl;

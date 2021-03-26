@@ -34,5 +34,6 @@ public:
 
     //METHODEs
     virtual void avancer(Vehicule& v) = 0;
+    virtual void show();
     friend ostream& operator<<(ostream& os, Vehicule const& v);
 };
